@@ -1,0 +1,1230 @@
+
+
+body {
+  background-color: #C0C0C0;
+  margin: 0 !important;
+  width: 100%; 
+}
+
+#container {
+    width: 100%;
+}
+
+.header {
+    height: 20vh;
+    width: 100%;
+    background-image: url(img/tloo.jpg);
+    background-size: 100% 15%; 
+    z-index: 2;
+    background-attachment: fixed;
+	margin-bottom:-6vh;
+}
+.header a {
+    text-decoration: none; 
+	
+}
+.logo {
+	
+    height: 20vh;
+    width: 20vh;
+	margin:auto;
+    border: 0px solid #ffffff;
+    z-index: 4;
+}
+
+.name {
+    font-size: 2vh;
+    color: white;
+	margin: auto;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    background-color: #000000;
+    width: 20vh;
+    border-right: 1vh solid red;
+    border-left: 1vh solid red;
+	z-index: 5;
+	position:relative;
+}
+.name a {
+
+	color: white;
+	text-decoration: none;
+}
+	
+.name a:hover 
+{
+    color: red;
+}
+
+.nav {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 7vh;
+    background-color: #191919;
+    border-bottom: 1vh solid #3A3A3A;
+    color: white;
+    font-family: "Jersey 25", sans-serif;
+	font-size:5vh;
+	width:100%;
+}
+
+.nav ol {
+    display: flex;
+    list-style: none;
+    padding: 0; 
+    margin: 0; 
+}
+
+.nav li {
+    margin: 0 21vw; 
+}
+
+
+.nav a {
+    color: white;
+    text-decoration: none;
+	padding:1vh 2vh;
+	border-right: 0.2vh dashed #424243;
+	border-left:0.2vh dashed #424243;
+}
+
+.nav a:hover {
+    color: red;
+	background-color:#222222;
+}
+
+
+.content {
+	color: black;
+	width: 100%;
+	background-image: url(img/tlocontent.png);
+	background-size: 100% 100%;
+	margin-top:-15vh;
+}
+
+
+.sidebar
+{
+	width:100%;
+	height:100%;
+  
+}
+.sidebarL
+{
+	float: left;
+	width: 10%;
+	height: 206vh;
+	border: 0px solid black;
+	max-height:220vh;
+	
+}
+.sidebarR
+{
+	float: right;
+	width: 10%;
+	height: 206vh;
+	max-height:220vh;
+}
+
+
+
+.me 
+{
+	width: 25vh;
+	height: 25vh;
+	border: 0px solid black;
+	margin-top: 15vh;
+	margin-bottom:10vh;
+	margin-left:2vh;
+}
+
+.text
+{
+	
+	color: white;
+	padding: 3vh;
+	margin-left: 100vh;
+	margin-top: -10vh;
+	text-align: justify;
+	font-size: 2vh;
+	width: 40%; 
+	font-family: "Noto Sans", sans-serif;
+	position: relative;
+	text-shadow: 0.1vh 0.2vh black;
+	border:0px solid black;
+}
+.text h1
+{
+	font-size: 4vh;
+	text-align:center;
+}
+
+.socials 
+{
+	width: 20vh;
+	height: 5vh;
+	margin-left: 50vh;
+	margin-bottom: 15px;
+	text-shadow: 0.1vh 0.2vh black;
+	font-family: "Noto Sans", sans-serif;
+}
+
+.kontakt {
+	margin-bottom: 2vh;
+	text-align: center;
+	color: white;
+	width:30vh;
+	font-size:3vh;
+	margin-left:2vh;
+	margin-top:15vh;
+}
+
+
+.socialdivs {
+	width: 30vh;
+	border: 1px solid black;
+	height: 100%;
+	padding: 0.5vh 2vh;
+	display: flex;
+	justify-content: center;
+	background-color: #202020;
+	border: 1px solid black;
+}
+
+.socialdivs a {
+	text-decoration: none;
+	}
+
+.fb {
+	display: inline-block;
+	width: 5vh;
+	height: 5vh;
+	margin-right: 3vh;
+	margin-left:3vh;
+}
+
+.fb:hover {
+	background-color: #4668b3;
+	padding:0.2vh 0.6vh;
+	text-decoration:none;
+}
+
+.linkedin {
+	display: inline-block;
+	width: 5vh;
+	height: 5vh;
+	margin-right: 3vh;
+  
+}
+
+.linkedin:hover {
+	background-color: #0E76A8;
+	padding:0.2vh 0.6vh;
+	text-decoration:none;
+}
+
+.tw {
+	display: inline-block;
+	width: 5vh;
+	height: 5vh;
+	margin-right: 4vh;
+}
+
+.tw:hover {
+	background-color: #3095d3;
+	padding:0.2vh 0.6vh;
+	text-decoration:none;
+}
+
+.ig {
+	display: inline-block;
+	width: 5vh;
+	height: 5vh;
+	margin-right: 4vh;
+}
+
+.ig:hover {
+	background-color: #8134AF;
+	padding:0.2vh 0.6vh;
+	text-decoration:none;
+}
+
+.socialdivs a {
+	text-decoration: none;
+	color: white;
+}
+
+.oscar {
+	width: 150vh;
+	font-size: 10vh;
+	color: gold;
+	display: flex;
+	justify-content: center;
+	margin: auto;
+	text-align: center;
+	font-family: "Teko", sans-serif;
+	font-optical-sizing: auto;
+	font-style: normal;
+
+}
+
+
+.oscarIMG {
+	
+	width: 20vh;
+	height: 60vh;
+	margin-bottom:10vh;
+	margin-left:10vh;
+	margin-top:0vh;
+}
+
+.odliczanie
+{
+	widht:100%;
+	font-size:20vh;
+	color:gold;
+	margin-left:30vw;
+	margin-top:-50vh;
+	font-family: "Anton", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing:1vh;
+	
+	
+}
+
+
+.matma
+
+{
+	margin:auto;
+	color:white;
+	font-size:8vh;
+	text-align:center;
+	font-family: "Permanent Marker", cursive;
+	font-weight: 400;
+	font-style: normal;
+	text-shadow: 0.1vh 0.2vh black;
+	width:100vh;
+	margin-top:8.5vh;
+	padding:2vh;
+	
+}
+
+.footer
+{
+	background-image: url(img/tłofooter.jpg);
+	background-size: 100% 100%;
+	width:100%;
+	height:20vh;
+	margin-top:0vh;
+}
+.footer p
+{
+	color: white;
+	text-align: justify;
+	font-size: 2vh;
+	font-family: "Noto Sans", sans-serif;
+	text-shadow: 0.1vh 0.2vh black;
+	border:0px solid black;
+	line-height:0.4vh;
+	padding:0.5vh;
+}
+
+.sticky {
+	position: fixed;
+	width: 100%;
+	left: 0;
+	top: 0;
+	z-index: 100;
+
+}
+.content_matma
+{
+	width:100vw;
+	background-image: url(img/tlocontent.png);
+	background-size: 100% 100%;
+	color:white;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	padding:5vh 0vh;
+	
+}
+
+.content_matma li
+{
+	list-style: none;
+	padding:5vh;
+	font-size:3vh;
+	letter-spacing:0.5vh;
+}
+
+.content_seriale, .content_filmy
+{
+	color: white;
+	width: 100%;
+	background-color:#222322;
+}
+
+.sidebarR2
+{
+	float: right;
+	width: 10%;
+	height: 280vh;
+	max-height:280vh;
+}
+.sidebarL2
+{
+	float: left;
+	width: 10%;
+	height: 280vh;
+	border: 0px solid black;
+	max-height:280vh;
+	
+}
+
+
+
+.content_seriale h1,
+.content_filmy h1 {
+	margin-top: auto; 
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center; 
+	text-shadow: 0.1vh 0.2vh black;
+	font-size:6vh;
+	font-family: "Permanent Marker", cursive;
+	font-weight: 400;
+	font-style: normal;
+	width:100%;
+	margin-bottom:-3vh;
+	padding:2vh;
+}
+
+
+.seriale, .filmy
+{
+	background-image: url(img/tlocontent.png);
+	background-size: 100% 100%;
+	height:100%;
+	margin:auto;
+	padding:5vh 0;
+	
+}
+
+.seriale li ,.filmy li {
+	margin-top:5vh;
+	padding: 5vh;
+	list-style-type: none;
+	width:80%;
+	margin:auto;
+
+	
+}
+
+.breaking {
+	margin-right: auto;
+	margin-left: auto; 
+	background-color: #223d2a;
+	display: flex;
+	flex-direction: row;
+	justify-content: center; 
+	align-items: center;
+	padding:1vh;
+}
+
+.suits
+{
+	margin-right: auto;
+	margin-left: auto;
+	height: auto;
+	background-color: #070c10;
+	display: flex;
+	flex-direction: row;
+	justify-content: center; 
+	align-items: center;
+	padding:1vh;
+  
+}	
+	
+.prison
+{	
+	margin-right: auto;
+	margin-left: auto; 
+	height: auto;
+	background-color: #fe3432;
+	display: flex;
+	flex-direction: row;
+	justify-content: center; 
+	align-items: center;
+	padding:1vh;
+  
+}
+
+.bojack
+{	
+	margin-right: auto;
+	margin-left: auto;
+	height: auto;
+	background-color: #e79738;
+	display: flex;
+	flex-direction: row;
+	justify-content: center; 
+	align-items: center;
+	padding:1vh;
+  
+}
+.narcos
+{	
+	margin-right: auto;
+	margin-left: auto; 
+	height: auto;
+	background-color: #5b7073;
+	display: flex;
+	flex-direction: row;
+	justify-content: center; 
+	align-items: center;
+	padding:1vh;
+  
+}
+
+.ankieta
+{	
+	margin-right: auto;
+	margin-left: auto; 
+	height: auto;
+	background-image: url(img/ankieta-tlo.jpg);
+	display: flex;
+	flex-direction: row;
+	justify-content: center; 
+	align-items: center;
+	padding:1vh;
+	 
+  
+}
+
+.ankieta a
+{
+	text-decoration:none;
+	color:white;
+	text-shadow: 0.2vh 0.2vh black;
+}
+
+.harry
+{
+	margin-right: auto;
+	margin-left: auto; /* Aby ustawić kontener na środku */
+	height: auto;
+	background-color: #00050b;
+	display: flex;
+	flex-direction: row;
+	justify-content: center; 
+	align-items: center;
+	padding:1vh;
+  
+}
+	
+.ring
+{
+	margin-right: auto;
+	margin-left: auto; 
+	height: auto;
+	background-color: #918b5d;
+	display: flex;
+	flex-direction: row;
+	justify-content: center; 
+	align-items: center;
+	padding:1vh;
+  
+}
+
+.klik
+
+{
+	margin-right: auto;
+	margin-left: auto; 
+	height: auto;
+	background-color: #5ec2e5;
+	display: flex;
+	flex-direction: row;
+	justify-content: center; 
+	align-items: center;
+	padding:1vh;
+	
+}
+
+.batman
+{
+	margin-right: auto;
+	margin-left: auto;
+	height: auto;
+	background-color: #07111b;
+	display: flex;
+	flex-direction: row;
+	justify-content: center; 
+	align-items: center;
+	padding:1vh;
+	
+}
+
+.forrest
+{
+	margin-right: auto;
+	margin-left: auto;
+	height: auto;
+	background-color: #bfb9b9;
+	display: flex;
+	flex-direction: row;
+	justify-content: center; 
+	align-items: center;
+	padding:1vh;
+	
+}
+
+
+.breaking img,.suits img, .prison img, .bojack img,.narcos img ,.harry img , .ring img, .klik img, .batman img, .forrest img {
+	height: 30vh;
+	width: 20vh;
+	margin-left:3vh;
+	box-shadow: 0px 0px 10px 5px rgba(0,0,0);
+  
+ 
+}
+
+
+.breaking p , .suits p, .prison p, .bojack p, .narcos p , .harry p , .ring p ,.klik p , .batman p, .forrest p
+{
+	margin-left:0vh;
+	margin-right:0vh;
+	padding:5vh;
+	height:20vh;
+	width: 1000vh;
+	font-size:2vh;
+	color:white;
+	text-shadow: 0.1vh 0.1vh black;
+	font-family: "Noto Sans", sans-serif;
+  
+}
+.breaking h1,.suits h1,.prison h1, .bojack h1, .narcos h1 , .harry h1, .ring h1, .klik h1 , .batman h1 , .forrest h1
+{
+	margin-top: -3vh;
+}
+
+
+.breaking h2,.suits h2,.prison h2, .bojack h2, .narcos h2 , .harry h2 , .ring h2 , .klik h2 , .batman h2 , .forrest h2
+{
+	border-left: 0.5vh solid white;
+	height:10vh;
+	padding:5vh;
+	font-size:5vh;
+	text-shadow: 0.1vh 0.2vh black;
+	color:white;
+	margin-top:0vh;
+}
+
+.breaking a, .suits a,.prison a, .bojack a, .narcos a , .harry a , .ring a ,.klik a, .batman a , .forrest a{
+	display: block;
+	text-decoration:none;
+	width: 500vh; 
+	margin-left:10vh;
+	border-left: 0.5vh solid white;
+	border-right:0.5vh solid white;
+	padding:0 10vh;
+	height:10vh;
+	font-size:4vh;
+	text-align:center;
+	text-shadow: 0.1vh 0.2vh black;
+	font-family: "Fjalla One", sans-serif;
+	font-weight: 400;
+	margin-top:2vh;
+	align-content:center;
+	color:white;
+	
+}
+
+.breaking a:hover 
+{
+	background-color:#142519;
+	padding: 10vh 10vh;
+}
+
+.suits a:hover 
+{
+	background-color:#000000;
+	padding: 10vh 10vh;
+}
+
+.prison a:hover 
+{
+	background-color:#da3230;
+	padding: 10vh 10vh;
+}
+
+.bojack a:hover 
+{
+	background-color:#c27f30;
+	padding: 10vh 10vh;
+}
+
+.narcos a:hover 
+{
+	background-color:#4A5B5E;
+	padding: 10vh 10vh;
+}
+
+.harry a:hover 
+{
+	background-color:#000000;
+	padding: 10vh 10vh;
+}
+
+.ring a:hover 
+{
+	background-color:#533f1e;
+	padding: 10vh 10vh;
+}
+.klik a:hover 
+{
+	background-color:#005da5;
+	padding: 10vh 10vh;
+}
+.batman a:hover 
+{
+	background-color:#000000;
+	padding: 10vh 10vh;
+}
+.forrest a:hover 
+{
+	background-color:#811514;
+	padding: 10vh 10vh;
+}
+
+.content_breaking,.content_suits,.content_prison ,.content_bojack,.content_narcos, .content_harry, .content_ring, .content_klik, .content_batman, .content_forrest
+{
+	background:white;
+	width:100%;
+	color:black;	
+	height:280vh;
+	min-height:280vh;
+	margin:0;
+	margin-bottom:-2vh;
+	
+}
+
+.breakingtło, .suitstło,.prisontło
+{
+	width:100%;
+	box-shadow: 0px 0px 10px 5px rgba(0,0,0);
+	
+}
+.breakinglogo,.suitslogo ,.prisonlogo
+{
+	margin-left:20vh;
+	margin-top:-30vh;
+	height:60vh;
+	box-shadow: 0px 0px 10px 5px rgba(0,0,0);
+}
+
+
+.content_breaking h1,
+.content_suits h1,
+.content_prison h1,
+.content_breaking h2,
+.content_suits h2,
+.content_prison h2,
+.content_bojack h1,
+.content_bojack h2,
+.content_narcos h1,
+.content_narcos h2,
+.content_harry h1,
+.content_harry h2,
+.content_ring h1,
+.content_ring h2,
+.content_klik h1,
+.content_klik h2,
+.content_batman h1,
+.content_batman h2,
+.content_forrest h1,
+.content_forrest h2
+{
+	font-size: 10vh;
+	margin-top: -20vh;
+	text-align: center;
+	font-family: "Fjalla One", sans-serif;
+	font-weight: 400;
+	color: black;
+}
+
+.content_breaking h2,
+.content_suits h2,
+.content_prison h2,
+.content_bojack h2,
+.content_narcos h2,
+.content_harry h2,
+.content_ring h2,
+.content_klik h2,
+.content_batman h2,
+.content_forrest h2
+{
+	padding: 8vh;
+	margin-top: -15vh; 
+	font-size: 5vh;
+	font-weight: 200;
+	border-bottom: 0.1vh solid black;
+}
+
+.tekst
+{
+	width:50vw;
+	margin-left:auto;
+	font-size:3vh;
+	padding:7vh;
+	line-height:5vh;
+	height:55vh;
+	margin-top:-160vh;
+}
+
+.recenzje a
+{
+	text-decoration:none;
+}
+
+.recenzje
+{
+	display:flex;
+	display: flex;
+    align-items: center; /
+	widht:100vh;
+}
+
+.imdb
+{
+	height:10vh;
+	background-color:#f6c800;
+	padding:2vh;
+}
+
+.filmweb
+{
+	height:10vh;
+	background-color:black;
+	padding:2vh;
+	margin-left:10vh;
+	
+}
+
+
+
+
+
+.gwiazdki
+{
+	width:50vw;
+	display:flex;
+	flex-direction: column;
+	margin-top:30vh;
+	margin-left:-10vh;
+	align-items:center;
+}
+
+.gwiazdki ul
+{
+	list-style-type: none;
+	padding:0;
+	
+	
+}
+
+
+.gwiazdki img
+{
+	margin-bottom:30vh;
+	margin-left:0vh;
+	width:60vh;
+	
+	
+}
+
+.gwiazdki h1 {
+	text-align:center;
+	font-size:5vh;
+}
+
+
+
+.wyniki {
+    color: black;
+    width: 100%;
+    height: auto;
+	background-image: url(img/tlocontent.png);
+	background-size: 100% 100%;
+	padding:10vh 0;
+	font-family: 'Lobster', cursive;
+	letter-spacing:0.2vh;
+	text-shadow: 0.1vh 0.2vh black;
+}
+
+.tabela_z_wynikami {
+    margin-top: 10vh;
+    margin-left: auto;
+    margin-right: auto;
+	padding:3vh;
+    color: white;
+    height: auto;
+    text-align: center;
+	width:80%;
+	font-size:3vh;
+	
+}
+
+.tabela_z_wynikami td {
+    padding: 5vh 5vh; 
+	font-family: "Fjalla One", sans-serif;
+}
+
+.tabela_z_wynikami th {
+    padding: 5vh 10vh; 
+	
+}
+
+.wyniki h1
+{
+	margin-left:90vw;
+}
+.wyniki a
+{
+	text-decoration:none;
+	color:red;
+	text-shadow: 0.1vh 0.2vh black;
+	font-family: "Fjalla One", sans-serif;
+	
+}
+.ankieta_podstrona
+{
+	background-image: url(img/tlocontent.png);
+	background-size: 100% 100%;
+	text-align:center;
+	 width: 100%;
+    height: auto;
+}
+
+.content_ankieta
+{
+ color: white;
+    width: 100%;
+    height: auto;
+	padding:10vh 0;
+	text-shadow: 0.1vh 0.2vh black;
+}
+
+
+
+.content_ankieta ul
+{
+	padding:1vh;
+	text-decoration:none;
+}
+
+.content_ankieta h2
+{
+	font-family: 'Lobster', cursive;
+	letter-spacing:0.2vh;
+}
+
+.content_ankieta a
+{
+	text-decoration:none;
+	color:red;
+	text-shadow: 0.1vh 0.2vh black;
+	font-family: "Fjalla One", sans-serif;
+	font-size:2vh;
+	
+}
+.przycisk
+{
+	margin-left:14vw;
+	margin-top:5vh;
+	margin-bottom:5vh;
+	
+}
+
+
+@media screen and (max-width:1000px)
+{
+	
+.body {
+    background-color: #C0C0C0;
+    color: white;
+    margin: 0 !important;
+	widht:100%
+}
+
+#container {
+    width: 100%;
+}	
+	
+.header {
+    height: 20vh;
+    width: 100%;
+    background-image: url(img/tloo1.jpg);
+    background-size: 100% 12%; 
+    z-index: 2;
+    background-attachment: fixed;
+    border-top: 1px solid black;
+	background-repeat:no-repeat;
+}
+
+.logo 
+{
+    height: 17vh;
+    width: 17vh;
+	margin:auto;
+    border: 0px solid #ffffff;
+    z-index: 3;
+	margin-top:1vh;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5vh;
+  background-color: #191919;
+  border-bottom: 1vh solid #3A3A3A;
+  color: white;
+  font-family: "Jersey 25", sans-serif;
+  font-size: 3vh;
+  padding: 0 2vh;
+  box-sizing: border-box;
+  margin-bottom:0vh;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  padding: 0.3vh 2vh;
+  border-right: 0.2vh dashed #424243;
+  border-left: 0.2vh dashed #424243;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+	color: black;
+	width: 100%;
+	background-image: url(img/tlocontent.png);
+	background-size: 100% 100%;
+}
+
+.sidebar {
+  width: 100%;
+  height: 100%;
+}
+
+.sidebarL {
+  float: left;
+  width: 10%;
+  height: 220vh;
+  border: 0px solid black;
+}
+
+.sidebarR {
+  float: right;
+  width: 10%;
+  height: 220vh;
+}
+.me 
+{
+  width: 25vh;
+  height: 25vh;
+  border: 0px solid black;
+  margin-top: 15vh;
+  margin-bottom:10vh;
+  margin-left:2vh;
+}
+
+.name 
+{
+    font-size: 2vh;
+    color: white;
+	margin: auto;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    background-color: #000000;
+    width: 20vh;
+    border-right: 1vh solid red;
+    border-left: 1vh solid red;
+	z-index: 3;
+	margin-top: 1vh;
+}
+
+.me 
+{
+  width: 25vh;
+  height: 25vh;
+  border: 0px solid black;
+	margin:auto;
+	margin-top:5vh;
+}
+
+.text
+{
+	color: white;
+	padding: 3vh;
+	text-align: justify;
+	font-size: 2vh;
+	width: 80%; 
+	font-family: "Noto Sans", sans-serif;
+	text-shadow: 0.1vh 0.2vh black;
+	border:0px solid black;
+	margin:auto;
+}
+.text h1
+{
+	font-size: 4vh;
+	text-align:center;
+	margin-top:50vh;
+}
+
+.socials 
+{
+  width: 20vh;
+  height: 5vh;
+  margin-bottom: 15px;
+  text-shadow: 0.1vh 0.2vh black;
+  font-family: "Noto Sans", sans-serif;
+  margin:auto;
+ 
+}
+
+.kontakt {
+  margin-bottom: 5vh;
+  text-align: center;
+  color: white;
+  width:30vh;
+  font-size:3vh;
+  margin:auto;
+  margin-top:10vh;
+  margin-left:-3vh;
+}
+
+
+.socialdivs {
+  width: 30vh;
+  border: 1px solid black;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #202020;
+  border: 1px solid black;
+  margin:auto;
+  margin-top:5vh;
+  margin-left:-6vh;
+}
+
+
+.fb {
+  display: inline-block;
+  width: 5vh;
+  height: 5vh;
+  margin-right: 3vh;
+  margin-left:3vh;
+}
+
+.fb:hover {
+  background-color: #4668b3;
+  padding:0.2vh 0.6vh;
+  text-decoration:none;
+}
+
+.linkedin {
+  display: inline-block;
+  width: 5vh;
+  height: 5vh;
+  margin-right: 3vh;
+  
+}
+
+.linkedin:hover {
+  background-color: #0E76A8;
+  padding:0.2vh 0.6vh;
+  text-decoration:none;
+}
+
+.tw {
+  display: inline-block;
+  width: 5vh;
+  height: 5vh;
+  margin-right: 4vh;
+}
+
+.tw:hover {
+  background-color: #3095d3;
+  padding:0.2vh 0.6vh;
+  text-decoration:none;
+}
+
+.ig {
+  display: inline-block;
+  width: 5vh;
+  height: 5vh;
+  margin-right: 4vh;
+}
+
+.ig:hover {
+  background-color: #8134AF;
+  padding:0.2vh 0.6vh;
+  text-decoration:none;
+}
+
+
+.socialdivs a {
+  text-decoration: none;
+  color: white;
+}
+
+.oscar {
+  width:80%;
+  font-size: 3vh;
+  color: gold;
+  margin: auto;
+  text-align: center;
+  font-family: "Teko", sans-serif;
+  font-style: normal;
+
+}
+
+
+
+.oscarIMG {
+	
+	width: 10vh;
+	height: 30vh;
+	margin-bottom:10vh;
+	margin-top:0vh;
+}
+
+.footer
+{
+	background-image: url(img/tłofooter.jpg);
+	background-size: 100% 100%;
+	width:100%;
+	height:20vh;
+	margin-top:0vh;
+}
+.footer p
+{
+	color: white;
+	text-align: justify;
+	font-size: 1.5vh;
+	font-family: "Noto Sans", sans-serif;
+	text-shadow: 0.1vh 0.2vh black;
+	border:0px solid black;
+	line-height:0.4vh;
+	padding:0.5vh;
+}
+}
